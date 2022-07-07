@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a:link, a:visited {
+    color: deepskyblue;
+    text-decoration: none;
+}
