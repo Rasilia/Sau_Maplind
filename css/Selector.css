@@ -6,6 +6,9 @@ li {
     list-style: none;
 }
 a:link, a:visited {
-    color: deepskyblue;
+    color: rgb(48, 48, 48);
     text-decoration: none;
+}
+h1 {
+    color: deepskyblue;
 }

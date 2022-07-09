@@ -3,16 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sau Maplind</title>
+    <title id="Title_1">Sau Maplind</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/Selector.css">
+    <script src="js/FraskinjmoKafnsmo.js"></script>
+    <script>localStorage.setItem("êlyr_miha", "saulimia")</script>
 </head>
 
 <body>
     <h1><center>In Testing</center></h1>
     <center><ul>
-        <li><a href="Êlyrmo/">Êlyrmo</a></li>
-        <li><a href="Gomasmo/">Gomasmo</a></li>
+        <li><a href="Êlyrmo/" id="Êlyrmo">Worlds</a></li>
+        <li><a href="Gomasmo/" id="Gomasmo">Characters</a></li>
+        <hr>
+        <li class="bekafnsme" id="inglish" onclick="inglish(); fras_fonna_inglish()">English</li>
+        <li class="pabekafnsme" id="han_ü" onclick="han_ü(); fras_fonna_han_ü()">汉语</li>
     </ul></center>
 </body>
+
+<fraskinjmo>
+    <script src="fraskinjmo/fonnakn/han_ü.js"></script>
+    <script src="fraskinjmo/fonnakn/inglish.js"></script>
+</fraskinjmo>
 </html>
